@@ -2,5 +2,24 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.26",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Resource_ProtoHUDS",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"Slate",
+				"SlateCore",
+				"UMG"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "HTNPlanner",
+			"Enabled": true
+		}
+	]
 }
